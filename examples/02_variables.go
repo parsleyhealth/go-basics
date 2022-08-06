@@ -35,7 +35,7 @@ func main() {
 	fmt.Println(fifth)
 	fmt.Println(sixth)
 
-	// Default values
+	// Default empty values (Zero types)
 	var noString string
 	var noInt int
 	var noBool bool

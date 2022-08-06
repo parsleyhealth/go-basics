@@ -23,6 +23,7 @@ func main() {
 		"Salvatierra",
 		"Solís",
 		"Saborío",
+		"Navas",
 	}
 
 	fmt.Println(footBallTeam)
@@ -35,6 +36,8 @@ func main() {
 		"Onions",
 		"Funyuns",
 	}
+
+	groceries = append(groceries, "Pop Corn")
 
 	fmt.Println(groceries)
 }

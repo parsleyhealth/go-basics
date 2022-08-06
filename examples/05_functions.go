@@ -33,7 +33,7 @@ func whatsInThaBox() (box string) {
 	return
 }
 
-// Varidic Functions
+// Variadic Functions
 func additionPlusPlus(nums ...int) int {
 	total := 0
 
@@ -49,13 +49,13 @@ func main() {
 	sum := addition(4, 6)
 	fmt.Println(sum)
 
-	sum2, mult := addAndMult(sum, 6)
-	fmt.Printf("Sum: %d, Mult: %d", sum2, mult)
+	sum2, mult2 := addAndMult(sum, 6)
+	fmt.Printf("Sum: %d, Mult: %d", sum2, mult2)
 	fmt.Println()
 
 	morganFreemanSays := whatsInThaBox()
 	fmt.Println(morganFreemanSays)
 
-	sumAll := additionPlusPlus(sum, sum2, mult)
+	sumAll := additionPlusPlus(sum, sum2, mult2)
 	fmt.Println(sumAll)
 }

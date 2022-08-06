@@ -22,7 +22,6 @@ func changeName(p *Person, newName string) {
 }
 
 func main() {
-
 	john := Person{
 		Name:   "John Doe",
 		Height: 1.72,

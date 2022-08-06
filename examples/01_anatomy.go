@@ -10,5 +10,5 @@ import (
 // This is the starting function of our program
 func main() {
 	// Our app's code
-	fmt.Println("Hello World")
+	fmt.Println("Hello World!")
 }
